@@ -37,7 +37,8 @@ export default {
       ],
     ],
     extra: {
-      oneSignalAppId: process.env.ONE_SIGNAL_APP_ID,
+      oneSignalAndroidAppId: process.env.ONE_SIGNAL_ANDROID_APP_ID,
+      oneSignalIosAppId: process.env.ONE_SIGNAL_IOS_APP_ID,
     },
   },
 };
